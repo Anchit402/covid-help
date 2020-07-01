@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="navbar">
+        <nav>
+            <div id="logo">
+                <img src="covid_logo.jpg" alt="">
+            </div>
+            <div id="nav-links" class="fade">
+                <ul>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#news">Vaccine News</a></li>
+                    <li><a href="#helpline">Helpline</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div id="burger">
+                <div id="one"></div>
+                <div id="two"></div>
+                <div id="three"></div>
+            </div>
+        </nav>
+    </section>
+    <section id="blog">
+        <h1 id="heading">BLOG ABOUT COVID-19</h1>
+        <img src="blog.jpeg" alt="">
+        <h2>Even If You’re Asymptomatic, the Coronavirus Can Do Damage</h2>
+        <h3>Since the early days of the novel coronavirus outbreak, infectious disease experts have recognized that some people who contract the virus do not develop a fever, cough, or any of the infection’s other hallmark symptoms.
+            These apparently “asymptomatic” cases may make up a large portion of all Covid-19 infections. Estimates vary widely, but many — including a recent mathematical model from the U.S. Centers for Disease Control and Prevention (CDC) — suggest that somewhere between 20% and 50% of infectees never experience noticeable symptoms.
+            This is a problem for public health officials because asymptomatic carriers can likely still spread the virus to others. Their lack of apparent symptoms makes the virus tricky to monitor and corral. On the other hand, it would be comforting if a large percentage of people with Covid-19 are skating through without any apparent ill effects.
+            What You Need to Know About Asymptomatic Spread of Covid-19
+            But some recent findings have turned up “subclinical” effects in people with Covid-19 who never develop noticeable virus symptoms. These could indicate underlying risks for asymptomatic patients.</h3>
+    </section>
+    <section id="news">
+        <h1 id="heading">LATEST VACCINE NEWS</h1>
+        <h2>Loading...</h2>
+        <ul id='newsheading'></ul>
+        <h3></h3>
+    </section>
+    
+    <section id="helpline">
+        <h1>THIS IS THE LINK TO DOWNLOAD PDF OF HELPLINE NUMBERS OF EVERY STATE</h1>
+        <div id="downloadlink">
+            <a href="helpline.pdf">Download</a>
+        </div>
+    </section>
+    <section id="contact">
+        <h1>Please fill data in the form below:</h1>
+        <form method="POST" action="/post-submission">
+            <label>Name:<input type="text" name="name" required></label>
+            <br>
+            <label>Email:<input type="text" name="email" required></label>
+            <br>
+            <label>Contact No:<input type='text' name="no" required></label>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <script src="app.js"></script>
+</body>
+<footer>
+    <p>Created by Anchit</p>
+</footer>
+</html>

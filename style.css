@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar {
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+nav {
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+    background-color: #5d4954;
+}
+nav #logo img {
+    height: 7vh;
+    background-color: #5d4954;
+}
+nav #nav-links ul {
+    display: flex;
+}
+nav #nav-links ul li {
+    margin: 0 0.5vw;
+    list-style-type: none;
+    
+}
+nav #nav-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size: 20px;
+    height: 8vh;
+    padding: 10px;
+    transition: 1s;
+}
+nav #nav-links ul li a:hover {
+    background-color: white;
+    color: #5d4954;
+}
+nav #burger div{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+    display: none;
+}
+#helpline h1{
+    text-align: center;
+}
+#helpline #downloadlink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#helpline a {
+    display: block;
+    background-color: blue;
+    padding: 10px;
+    font-size: larger;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    transition: 1s;
+}
+#helpline a:hover {
+    background-color: lightblue;
+    color: black;
+}
+#blog #heading {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+#blog img {
+    display: block;
+    height: 30%;
+    width: 30%;
+    margin: 0 auto;
+}
+#blog h2 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-bottom: #5d4954 solid;
+    padding-bottom: 100px;
+}
+#blog h3 {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-style: italic;
+}
+#news #heading {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#news h2 {
+    text-align: center;
+}
+#news #newsheading li {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+}
+#news #newsheading li a {
+    margin-top: 50px;
+
+}
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#contact #button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+#contact {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#contact h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+#contact form label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact input[type="submit"] {
+    width: 100%;
+    text-align: center;
+}
+
+footer {
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-style: italic;
+    background-color: lightblue;
+}
+
+@media screen and (max-width: 732px) {
+    nav #nav-links ul {
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: #5d4954;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+    }
+    nav #burger div{
+        display: block;
+    }
+
+
+    .fade{
+        display: none;
+    }
+}
+@media screen and (max-width: 536px) {
+    #blog h3 {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+} 
+
